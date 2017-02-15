@@ -1,0 +1,167 @@
+
+
+li .und a:hover 
+{ 
+    text-decoration: none;
+    border-bottom: 4px solid #64d7d7;
+    position: relative; 
+    padding-bottom: 4px;
+    top: -5px;
+    transition: 0.5s ease;
+}
+
+ul {
+		float: left;
+      	padding: 5px;
+      	background: rgba(0,0,0,0);
+      	font-family: impact;
+    }
+li {
+		margin-left: 25px;
+		padding-top: 25px;
+		list-style: none;
+      	display: inline;
+      	padding: 0px 10px 0px 10px;
+    }
+input 
+{
+	marker: 30px;
+	border: 0;
+	padding: 20px;
+	font-size: 18px;
+}
+input[type="submit"] 
+{
+	-moz-box-shadow: 1px 4px 1px 0px #50c3c3;
+	-webkit-box-shadow: 1px 4px 1px 0px #50c3c3;
+	box-shadow: 1px 4px 1px 0px #50c3c3;
+	background-color:#64d7d7;
+	-moz-border-radius:9px;
+	-webkit-border-radius:9px;
+	border-radius:9px;
+	display:inline-block;
+	cursor:pointer;
+	color:#1e3746;
+	font-family: impact;
+	font-size:22px;
+	padding:18px 21px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #d2413c;
+	margin: 20px;
+}
+.
+input:hover {
+	background-color: #f03838;
+}
+
+input:active {
+ 	position:relative;
+	top:4px;
+	box-shadow: 1 3px #64d7d7;
+	transform: translateY(0px);
+}
+.myButton 
+{
+	-moz-box-shadow: 1px 4px 1px 0px #8a2a21;
+	-webkit-box-shadow: 1px 4px 1px 0px #8a2a21;
+	box-shadow: 1px 4px 1px 0px #8a2a21;
+	background-color:#e64640;
+	-moz-border-radius:9px;
+	-webkit-border-radius:9px;
+	border-radius:9px;
+	border:1px solid #d13d3d;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffe064;
+	font-family: impact;
+	font-size:23px;
+	padding:15px 15px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #d2413c;
+}
+.myButton:hover 
+{
+	background-color:#f03838;
+}
+.myButton:active 
+{
+	position:relative;
+	top: 4px;
+	box-shadow: 1 #e64640;
+	transform: translateY(1px);
+
+}
+
+body 
+ {
+ 	margin: 0; 
+ 	text-align: center;
+ 	width: 100%;
+ 	background-color:#ffe064;
+ 	color: white;
+ 	font-family: helvetica;
+ 	margin: auto;
+ 	z-index: 10;
+ }
+
+.container
+{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header
+{
+	background: #ffe064;
+	width: 100%;
+	position: fixed;
+	opacity:0.8;
+}
+
+.header:hover 
+{
+	opacity:1;
+}
+
+.banner-img
+{
+  width: 100%;
+  z-index: 0;
+  display: block;
+}
+
+.logo
+{
+	float: left;
+	font-size: 15px;
+	padding: 10px;
+}
+
+a {
+	text-decoration: none; 
+	color: #1e3c47;
+}
+
+.nav {
+	float: right;
+}
+
+#boxpicture1
+{
+	display: inline;
+}
+
+.boxpicture 
+{
+	margin: 20px;
+	width: 400px;
+	height: 320px;
+	filter: grayscale(100%);
+}
+.boxpicture:hover
+	{
+		-webkit-filter: grayscale(0%);
+		-moz-filter: grayscale(0%);
+        filter: grayscale(0%);
+        transition: all 0.9s ease;
+	}
